@@ -1,9 +1,12 @@
+/*Regole generali Css*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+/*Css parte Header*/
 
 body{
     background-color: rgb(4, 23, 50);
@@ -28,6 +31,7 @@ body{
     font-weight: bold;
 }
 
+/*Regole Css Main*/
 .container-main{
     height: 800px;
     width: 50%;
@@ -77,6 +81,7 @@ hr{
 .command-task{
     font-weight: 400;
     display: inline;
+    margin: 10px;
 }
 
 .check-title{
@@ -142,5 +147,5 @@ hr{
 }
 
 .section{
-    margin: 10% 0px;
+    margin: 10% 1px;
 }
